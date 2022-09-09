@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class movimentoPlayer : MonoBehaviour
 {
@@ -23,9 +26,20 @@ public class movimentoPlayer : MonoBehaviour
     public bool sensor;
     private Vector3 velocidade;
     public float alturaPulo;
-
-
     public bool dormir;
+
+    [Header("HUD")]
+    public float vidaInicial;
+    public float vidaAtual;
+    public float porcentVida;
+    public Image imgVida;
+
+    [Header("TEMPOFASE")]
+    public float relogio;
+    public TextMeshProUGUI textoRelogio;
+
+
+   
 
 
 
@@ -34,6 +48,11 @@ public class movimentoPlayer : MonoBehaviour
         cam = Camera.main.transform;
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
+        relogio = 60;
     }
 
     // Update is called once per frame
@@ -43,6 +62,9 @@ public class movimentoPlayer : MonoBehaviour
         MovimentoPersonagem();
 
         anim.SetBool("ground", sensor);
+
+
+        relogioFase();
     }
 
     private void FixedUpdate()
@@ -114,6 +136,34 @@ public class movimentoPlayer : MonoBehaviour
 
            
         }
+
+        if (other.gameObject.tag == "vida") {
+            vidaAtual -= 1;
+            porcentVida = vidaAtual / vidaInicial;
+            imgVida.fillAmount = porcentVida;
+           
+        }
+
+        if (other.gameObject.tag == "ganharVida") {
+            vidaAtual = vidaInicial;
+            porcentVida = vidaAtual / vidaInicial;
+            imgVida.fillAmount = porcentVida;
+            Destroy(other.gameObject);
+
+        }
+
+
+    }
+
+    void relogioFase() {
+
+        if(relogio > 0) {
+
+            relogio -= Time.deltaTime;
+            textoRelogio.text = relogio.ToString("0");
+
+        }
+
     }
 
     

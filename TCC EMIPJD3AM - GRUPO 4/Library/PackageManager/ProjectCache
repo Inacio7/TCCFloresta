@@ -1,21 +1,21 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/professor.cetafaju/Documents/TCCInacio/TCCFloresta/TCC EMIPJD3AM
-      - GRUPO 4/Packages/manifest.json
+    m_FilePath: C:/Users/professor.cetafaju/Documents/TCCFlorestaInacio/TCCFloresta/TCC
+      EMIPJD3AM - GRUPO 4/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637977255634009030
+      ticks: 637983276491227100
     m_Hash: 3848073465
   m_LockFileStatus:
-    m_FilePath: C:/Users/professor.cetafaju/Documents/TCCInacio/TCCFloresta/TCC EMIPJD3AM
-      - GRUPO 4/Packages/packages-lock.json
+    m_FilePath: C:/Users/professor.cetafaju/Documents/TCCFlorestaInacio/TCCFloresta/TCC
+      EMIPJD3AM - GRUPO 4/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637977255634009030
+      ticks: 637983276491237075
     m_Hash: 2359411257
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -78,7 +78,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.6.15
       source: 1
-      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCInacio\TCCFloresta\TCC
+      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCFlorestaInacio\TCCFloresta\TCC
         EMIPJD3AM - GRUPO 4\Library\PackageCache\com.unity.cinemachine@2.6.15
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
@@ -244,7 +244,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCInacio\TCCFloresta\TCC
+      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCFlorestaInacio\TCCFloresta\TCC
         EMIPJD3AM - GRUPO 4\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
@@ -389,7 +389,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCInacio\TCCFloresta\TCC
+      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCFlorestaInacio\TCCFloresta\TCC
         EMIPJD3AM - GRUPO 4\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
@@ -509,7 +509,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCInacio\TCCFloresta\TCC
+      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCFlorestaInacio\TCCFloresta\TCC
         EMIPJD3AM - GRUPO 4\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
@@ -605,7 +605,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCInacio\TCCFloresta\TCC
+      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCFlorestaInacio\TCCFloresta\TCC
         EMIPJD3AM - GRUPO 4\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
@@ -679,7 +679,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCInacio\TCCFloresta\TCC
+      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCFlorestaInacio\TCCFloresta\TCC
         EMIPJD3AM - GRUPO 4\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
@@ -786,7 +786,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.4
       source: 1
-      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCInacio\TCCFloresta\TCC
+      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCFlorestaInacio\TCCFloresta\TCC
         EMIPJD3AM - GRUPO 4\Library\PackageCache\com.unity.textmeshpro@3.0.4
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
@@ -957,7 +957,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.7
       source: 1
-      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCInacio\TCCFloresta\TCC
+      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCFlorestaInacio\TCCFloresta\TCC
         EMIPJD3AM - GRUPO 4\Library\PackageCache\com.unity.timeline@1.4.7
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
@@ -2930,7 +2930,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCInacio\TCCFloresta\TCC
+      resolvedPath: C:\Users\professor.cetafaju\Documents\TCCFlorestaInacio\TCCFloresta\TCC
         EMIPJD3AM - GRUPO 4\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
@@ -2993,6 +2993,6 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/professor.cetafaju/Documents/TCCInacio/TCCFloresta/TCC EMIPJD3AM
-  - GRUPO 4/Packages
+m_ProjectPath: C:/Users/professor.cetafaju/Documents/TCCFlorestaInacio/TCCFloresta/TCC
+  EMIPJD3AM - GRUPO 4/Packages
 m_EditorVersion: 2020.3.4f1 (0abb6314276a)
