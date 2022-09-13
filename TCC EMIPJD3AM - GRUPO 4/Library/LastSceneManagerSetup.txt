@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/jogo.unity
+- path: Assets/Scenes/GamePlayer.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
