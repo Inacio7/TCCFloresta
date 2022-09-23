@@ -738,6 +738,75 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -462981019419857548, guid: 7d75bb1ade100684a909d64356664872, type: 3}
+--- !u!1001 &879605956
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1409344699}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0908364
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.98424786
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0908364
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0097505
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.64802
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.11128
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6740636
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.32743564
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.21363123
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6267263
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -45.17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
+      propertyPath: m_Name
+      value: Machado
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31436a76c092fe747a89578e4afe2022, type: 3}
 --- !u!1 &911710056
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,6 +1571,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1409344699 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7657833581634520859, guid: 947c19afe2ff3e540b064c5541623494, type: 3}
+  m_PrefabInstance: {fileID: 1989436146}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1422966594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1803,7 +1877,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579225260}
-  m_LocalRotation: {x: 0.114175975, y: 0.000000017443732, z: -0.000000002004765, w: 0.9934606}
+  m_LocalRotation: {x: 0.114175975, y: -0.000000017443734, z: 0.0000000020047652, w: 0.9934606}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
